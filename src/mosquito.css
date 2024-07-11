@@ -1,0 +1,22 @@
+.mosquito {
+    animation: rotation 15s linear infinite;
+    transform-origin: center;
+
+}
+
+.mosquito-orbit {
+	animation: orbit 15s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes orbit {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(-360deg);
+    }
+}
